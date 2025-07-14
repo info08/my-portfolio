@@ -12,7 +12,7 @@ export default function About() {
           </h1>
           <p className="mb-8 leading-relaxed">
             A result oriented professional, aiming to grow in an organization by demonstrating technical skills, 
-            technical acumen, proven by total of 7.5 years of successful, enriching serving tenure as 
+            technical acumen, proven by total of 7+ years of successful, enriching serving tenure as 
             Sr. Web & Mobile UI Developer | React | Next.js | React Native | OpenUI5.
           </p>
           <div className="flex justify-center">

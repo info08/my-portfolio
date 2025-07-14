@@ -1,5 +1,14 @@
 export const projects = [
   {
+    title: "Apple ",
+    subtitle: "Apple Acc Internal Proj (Web App –React Js / OpenUI5)",
+    description:
+      "it's provide satellite telecommunications network provider supplying video and data connectivity worldwide to broadcasters, content and internet service providers, mobile and fixed network operators, governments and institutions.",
+    subDescription:'- React JS,OpenUI5, Material UI, Typescript, React hooks, JavaScript, ES6, HTML, HTML 5, CSS 2/3, Bootstrap 3/4, GitHub, Git',
+    image: "./images/apple.jpeg",
+    link: "#",
+  },
+  {
     title: "SES",
     subtitle: "SES (Web App –React Js)",
     description:
@@ -16,6 +25,22 @@ export const projects = [
     subDescription:'React JS, Material UI, Typescript, Mobx, JavaScript, jQuery, ES6, HTML, HTML 5, CSS 2/3, Bootstrap 3/4, GitHub ,React Hooks',
     image: "./images/celver-capture.png",
     link: "https://www.clevercompliance.io/the-company",
+  },
+  {
+    title: "QUI",
+    subtitle: "QUI (Android/IOS App –React Native)",
+    description:
+      `Qui is a cross-platform mobile application built using React Native, designed for both Android and iOS devices.
+            This application enables users to:
+               Share audio, video, and images
+               Engage in real-time chat
+              Showcase and share their product information on a personalized dashboard
+              Interact with other users who can view and respond to the shared product details
+              Qui brings together communication and commerce, offering a dynamic and interactive platform for users to connect and collaborate.
+     `,
+    subDescription:'React Native, Redux,Firebase, Typescript, JavaScript,ES6',
+    image: "./images/qui.jpg",
+    link: "#",
   },
   {
     title: "Family One",
@@ -81,7 +106,7 @@ export const testimonials = [
     quote:"Morpheme Web nexus Pvt. Ltd. enables Small Medium Enterprises (SMEs) around the world to enjoy the same benefits of offshore outsourcing to India as the MNCs. Our unique business model helps start-ups and SMEs handpick the cream of the rich Indian talent from any field or domain – be it IT or non-IT related domains and hire them as their own dedicated employees. The expertise is on par with Western countries, but the cost is significantly lower.",
     link: "https://www.webnexus.in/",
     name: "Morpheme Web nexus Pvt Ltd",
-    duration: "16 March 2020 – 02 Fav 2022",
+    duration: "15 Fab 2018 – 15 March 2022",
     role:"Sr React Js/UI Front End Developer"
   }
 ];
@@ -112,5 +137,7 @@ export const skills = [
   {icon:'./images/githubdesktop.jpeg', name: "GitHub Desktop"},
   {icon:'./images/Azure-DevOps-Logo.jpg', name: "Azure DevOps"},
   {icon:'./images/mongoDb.png', name: "MongoDB Atlas"},
-  {icon:'./images/firebase.jpeg', name: "Firebase"}
+  {icon:'./images/firebase.jpeg', name: "Firebase"},
+  {icon:'./images/copilot.jpeg', name: "Copilot"},
+  {icon:'./images/chatgpt.png', name: "ChatGPT"}
 ];
