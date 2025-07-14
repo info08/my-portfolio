@@ -15,12 +15,19 @@ export default function Navbar() {
             Past Work
           </a>
           <a href="#skills" className="mr-5 hover:text-white">
-            Skills
+           Technical Skills
           </a>
           <a href="#testimonials" className="mr-5 hover:text-white">
-            Testimonials
+            Professioanl Experience
           </a>
         </nav>
+        <a
+          href="https://github.com/info08/my-portfolio/blob/gh-pages/images/PrashantMishraCV.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
+          Download CV
+        </a>
         <a
           href="#contact"
           className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">

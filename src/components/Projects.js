@@ -12,9 +12,7 @@ export default function Projects() {
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
+            I have build amazing apps which we can find below link these all are build in the react js on front End side and click on the project we can find more details.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
@@ -23,7 +21,7 @@ export default function Projects() {
               href={project.link}
               key={project.image}
               className="sm:w-1/2 w-100 p-4">
-              <div className="flex relative">
+              <div className="flex relative" style={{textAlign:'left' , height:'100%'}}>
                 <img
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
@@ -37,6 +35,7 @@ export default function Projects() {
                     {project.title}
                   </h1>
                   <p className="leading-relaxed">{project.description}</p>
+                   <p className="leading-relaxed"><b>Technologies Used:</b>{project.subDescription}</p>
                 </div>
               </div>
             </a>
