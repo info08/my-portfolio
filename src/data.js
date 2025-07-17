@@ -1,11 +1,11 @@
 export const projects = [
   {
-    title: "Apple ",
-    subtitle: "Apple Acc Internal Proj (Web App –React Js / OpenUI5)",
+    title: "Apple -SAP Landscape Modernization (SLM)",
+    subtitle: "Apple - Internal App",
     description:
-      "it's provide satellite telecommunications network provider supplying video and data connectivity worldwide to broadcasters, content and internet service providers, mobile and fixed network operators, governments and institutions.",
-    subDescription:'- React JS,OpenUI5, Material UI, Typescript, React hooks, JavaScript, ES6, HTML, HTML 5, CSS 2/3, Bootstrap 3/4, GitHub, Git',
-    image: "./images/apple.jpeg",
+      "SAP Landscape Modernization (SLM) refers to the process of transforming, simplifying, and optimizing an organization's SAP system landscape to make it more efficient, scalable, and aligned with modern IT and business strategies.",
+    subDescription:'- React Js, OpenUI5, TypeScript, JavaScript, Context API,Html5,CSS, SCSS, Restful APIs,dawToken ,GitHub,GitHub Desktop.',
+    image: "./images/slm.png",
     link: "#",
   },
   {
@@ -31,12 +31,9 @@ export const projects = [
     subtitle: "QUI (Android/IOS App –React Native)",
     description:
       `Qui is a cross-platform mobile application built using React Native, designed for both Android and iOS devices.
-            This application enables users to:
-               Share audio, video, and images
-               Engage in real-time chat
+       This application enables users to: Share audio, video, and images ,Engage in real-time chat
               Showcase and share their product information on a personalized dashboard
-              Interact with other users who can view and respond to the shared product details
-              Qui brings together communication and commerce, offering a dynamic and interactive platform for users to connect and collaborate.
+              Interact with other users who can view and respond to the shared product details.
      `,
     subDescription:'React Native, Redux,Firebase, Typescript, JavaScript,ES6',
     image: "./images/qui.jpg",
