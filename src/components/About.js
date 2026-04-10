@@ -12,7 +12,7 @@ export default function About() {
           </h1>
           <p className="mb-8 leading-relaxed">
             A result oriented professional, aiming to grow in an organization by demonstrating technical skills, 
-            technical acumen, proven by total of 7+ years of successful, enriching serving tenure as 
+            technical acumen, proven by total of 7.5+ years of successful, enriching serving tenure as 
             Sr. Web & Mobile UI Developer | React | Next.js | React Native | OpenUI5.<br />
             <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target='_blank' className="text-green-500 underline hover:no-underline">
               View my LinkedIn Profile 

@@ -2,6 +2,12 @@ import { ArrowRightIcon } from "@heroicons/react/solid";
 import React from "react";
 
 export default function Navbar() {
+   const handleDownload = () => {
+    const link = document.createElement('a');
+    link.href = process.env.PUBLIC_URL + '/images/PM_026.pdf'; // Path from the public folder
+    link.download = 'PM_026.pdf'; // Rename file if needed
+    link.click();
+  };
   return (
     <header className="bg-gray-800 md:sticky top-0 z-10">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
@@ -21,13 +27,14 @@ export default function Navbar() {
             Professioanl Experience
           </a>
         </nav>
-        <a
-          href="https://github.com/info08/my-portfolio/blob/gh-pages/images/Prashant_7Yrs.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
+        <button
+          onClick={()=>handleDownload()}
+          //href="https://github.com/info08/my-portfolio/blob/gh-pages/images/Prashant_7Yrs.pdf"
+          //target="_blank"
+          //rel="noopener noreferrer"
           className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
           Download CV
-        </a>
+        </button>
         <a
           href="#contact"
           className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">

@@ -45,7 +45,7 @@ export default function Contact() {
                 ADDRESS
               </h2>
               <p className="mt-1">
-                GSS Elite Co living PG, Kodathi<br />
+                Nest Co living PG, Kodathi<br />
                 No. 2, 1st cross Kodathi main Road, Ambalipura - Sarjapur Rd, near kodathi, signal, Kodathi, Bengaluru, Karnataka 560035, India
               </p>
             </div>
