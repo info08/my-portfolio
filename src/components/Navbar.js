@@ -5,7 +5,7 @@ export default function Navbar() {
    const handleDownload = () => {
     const link = document.createElement('a');
     link.href = process.env.PUBLIC_URL + '/images/PM_026.pdf'; // Path from the public folder
-    link.download = 'PM_026.pdf'; // Rename file if needed
+    link.download = 'PM_NextJs_8_CV.pdf'; // Rename file if needed
     link.click();
   };
   return (

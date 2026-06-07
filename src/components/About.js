@@ -11,9 +11,9 @@ export default function About() {
             apps.
           </h1>
           <p className="mb-8 leading-relaxed">
-            A result oriented professional, aiming to grow in an organization by demonstrating technical skills, 
-            technical acumen, proven by total of 7.5+ years of successful, enriching serving tenure as 
-            Sr. Web & Mobile UI Developer | React | Next.js | React Native | OpenUI5.<br />
+             Senior Frontend Engineer with 8+ years of experience building enterprise web applications using React.js, Next.js, TypeScript, and modern frontend architectures. 
+             Experienced in performance optimization, reusable component design, API integrations, OpenUI5 development, and scalable UI systems. 
+             Experienced in building scalable web applications using React.js, Next.js, React Native TypeScript, and modern frontend architecture patterns with exposure to Prisma and PostgreSQL.<br />
             <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target='_blank' className="text-green-500 underline hover:no-underline">
               View my LinkedIn Profile 
             </a>

@@ -1,5 +1,23 @@
 export const projects = [
   {
+    title: "Employee Management System",
+    subtitle: "Own -  App",
+    description:
+      "Employee Management System is a full-stack web application developed using Next.js, TypeScript, Prisma ORM, and PostgreSQL. The application allows administrators to manage employee records through complete CRUD operations, including employee creation, updates, viewing, and deletion. It leverages Next.js App Router, Server Components, API Route Handlers, and Prisma for efficient database interactions. The project was built to gain hands-on experience with modern full-stack development, database management, and scalable application architecture.",
+    subDescription:'- Next.js, TypeScript, Prisma ORM, PostgreSQL, React Hooks, Tailwind CSS, GitHub ,Redux Toolkit.',
+    image: "./images/ems.png",
+    link: "https://nextjs-ems.vercel.app/admin",
+  },
+  {
+    title: "Republic Polytechnic - Student Management System",
+    subtitle: "RP Account -  Extenal App",
+    description:
+      "Republic Polytechnic is a Singapore-based educational institution project where I worked on SharePoint Framework (SPFx) development using React.js and TypeScript. I developed custom web parts, integrated SharePoint data and APIs, built responsive user interfaces, and enhanced the overall user experience for internal business and collaboration workflows.",
+    subDescription:'SPFx (SharePoint Framework) ,React.js ,TypeScript ,SharePoint Online ,PnP JS ,HTML5 ,CSS3 ,REST APIs',
+    image: "./images/rp.png",
+    link: "https://www.rp.edu.sg/",
+  },
+  {
     title: "Apple -SAP Landscape Modernization (SLM)",
     subtitle: "Apple - Internal App",
     description:
@@ -111,6 +129,8 @@ export const testimonials = [
 export const skills = [
   {icon:'./images/logo192.png', name: "React JS"},
   {icon:'./images/nextjs.png', name: "Next JS"},
+  {icon:'./images/post.png', name: "PostgreSQL"},
+  {icon:'./images/prisma.png', name: "Prisma ORM(Object Relational Mapping)"},
   {icon:'./images/open.jpeg', name: "OpenUI5"},
   {icon:'./images/logo192.png', name: "React Native"},
   {icon:'./images/js.png', name: "JavaScript"},
